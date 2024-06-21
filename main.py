@@ -299,7 +299,7 @@ def Training_keras():
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     if st.button("Train AutoKeras Model"):
-        clf = ak.StructuredDataClassifier(max_trials=20)
+        clf = ak.StructuredDataClassifier(max_trials=10)
         history = clf.fit(X_train, y_train, epochs=100, verbose=1, validation_split=0.2)
 
         # Get the best model architecture and hyperparameters
@@ -370,7 +370,7 @@ def prediction_keras():
 
     # Input the dataset to do prediction
     # st.session_state.uploaded_file_prediction = st.file_uploader("Upload Vibration Data (CSV format) for your motor")
-    st.session_state.uploaded_file_prediction =pd.read_csv('/home/harsh/github/Stator-Fault-Diagnosis-in-Induction-Motor-using-Vibration-Signal--main/testing.csv')
+    st.session_state.uploaded_file_prediction =pd.read_csv('./testing.csv')
     if st.session_state.uploaded_file_prediction is not None:
         # Load the AutoKeras model
         model = st.session_state.trained_model
