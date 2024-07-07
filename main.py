@@ -23,17 +23,28 @@ def main():
     # Register your pages
     pages = {
         "Dataset Upload": home,
-        "Exploratory data analysis" : EDA,
-        "Feature Selection":feature_selection,
+        "Exploratory data analysis": EDA,
+        "Feature Selection": feature_selection,
         "Model Training using DL models": Training_keras,
-        "Prediction using DL models":prediction_keras,
-        "Explainable AI":XAI
+        "Prediction using DL models": prediction_keras,
+        "Explainable AI": XAI
     }
+
+    # Define custom CSS for font size
+    custom_css = """
+    <style>
+    body, .stTextInput, .stButton, .stRadio, .stSelectbox, .stMarkdown, .stSidebar {
+        font-size: 40px; /* Adjust this value as needed */
+    }
+    </style>
+    """
+
+    # Inject the custom CSS
+    st.markdown(custom_css, unsafe_allow_html=True)
 
     st.sidebar.title("Fault Diagnosis")
 
-    # Widget to select your page, you can choose between radio buttons or a selectbox
-    # page = st.sidebar.selectbox("Select your page", tuple(pages.keys()))
+    # Widget to select your page
     page = st.sidebar.radio("Select your page", tuple(pages.keys()))
 
     # Display the selected page with the session state
