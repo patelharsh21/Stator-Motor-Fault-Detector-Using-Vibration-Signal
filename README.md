@@ -3,6 +3,7 @@
 
 The AIFD MotorFault GUI is a graphical user interface designed to aid in the intelligent diagnosis of stator faults in induction motors. This project leverages vibration signals and machine learning to provide an end-to-end solution for motor fault detection and severity prediction. The GUI allows users to upload motor data and receive detailed fault diagnosis results without requiring any coding knowledge.
 App link: [AIFD MotorFault GUI](https://stator-motor-deploy-app-amybcmrxux5fiyg5pdsa9t.streamlit.app/)
+Paper link : [Research Paper](https://github.com/patelharsh21/stator-motor-deploy-streamlit/blob/main/photos/AIFD2023_MotorFault_GUI.pdf)
 ## Features
 
 - **User-Friendly Interface:** Built with Streamlit, the GUI enables easy dataset uploads, exploratory data analysis (EDA) visualization, and interaction with prediction results.
