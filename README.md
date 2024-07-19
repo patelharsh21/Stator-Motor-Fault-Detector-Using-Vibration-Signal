@@ -13,13 +13,7 @@ Paper link : [Research Paper](https://github.com/patelharsh21/stator-motor-deplo
 
 ## Requirements
 
-- Python 3.7+
-- Streamlit
-- AutoKeras
-- scikit-learn
-- pandas
-- numpy
-- matplotlib
+- Python 3.10
 
 ## Installation
 
