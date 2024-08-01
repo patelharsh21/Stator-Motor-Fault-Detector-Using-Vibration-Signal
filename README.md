@@ -56,20 +56,19 @@ Paper link : [Research Paper](https://github.com/patelharsh21/stator-motor-deplo
 
 ### UI
 
-![image](https://github.com/user-attachments/assets/c9f098c5-0a32-4044-aa14-c31e4ae50c55)
-
+<img src="https://github.com/user-attachments/assets/c9f098c5-0a32-4044-aa14-c31e4ae50c55" width="400">
 
 ### Results
 
-![image](https://github.com/user-attachments/assets/3ef987a0-3caf-456f-9476-ad4b2ee471fb)
+
+<img src="https://github.com/user-attachments/assets/3ef987a0-3caf-456f-9476-ad4b2ee471fb" width="400">
 
 
-![image](https://github.com/user-attachments/assets/a04d2d1c-b75c-4f84-af63-29c1b049b024)
-
+<img src="https://github.com/user-attachments/assets/a04d2d1c-b75c-4f84-af63-29c1b049b024" width="400">
 
 ### XAI (Explainable AI)
-![image](https://github.com/user-attachments/assets/61d160cf-b1ff-437d-8823-2cb1f7774fdd)
 
+<img src="https://github.com/user-attachments/assets/61d160cf-b1ff-437d-8823-2cb1f7774fdd" width="400">
 The proposed method demonstrates high accuracy in detecting and predicting the severity of stator faults in induction motors. The integration of a user-friendly GUI and Explainable AI techniques ensures that the solution is both accessible and trustworthy for end-users in industrial applications.
 
 ## Contributors
